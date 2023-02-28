@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zavrsni.MenuBarController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Igraci">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#showIgracSearchScreen" text="Search" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Menadzeri">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#showMenadzerSearchScreen" text="Search" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Stadioni">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#showStadionSearchScreen" text="Search" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Timovi">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#showTimSearchScreen" text="Search" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Utakmice">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#showUtakmicaSearchScreen" text="Search" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Moje karte">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#showMojeKarteSearchScreen" text="Search" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Promjene">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#showPromjeneSearchScreen" text="Search" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

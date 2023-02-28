@@ -1,0 +1,4 @@
+"ID","IME","PREZIME","OIB","DATUM_RODJENJA"
+"1","Andrea","Fratric","02342342341","1997-02-16"
+"2","David","Daves","00031235123","1989-02-02"
+"3","Jose","Mourinho","33123867129","1963-01-26"
